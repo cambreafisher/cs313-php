@@ -16,7 +16,7 @@
     <a href= 'TA1login.php'>Login</a>
     </div>
 <?php
-
+echo basename($_SERVER['PHP_SELF']);
 ?> 
 </body>
 </html>
