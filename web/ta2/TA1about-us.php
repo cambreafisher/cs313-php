@@ -12,5 +12,7 @@
     <?php
     include 'TA1header.php';
     ?>
+    <p>This company takes beautiful aerial photos with a drone. We work with weddings, parties, and any event you may want to remember!</p>
+    
 </body>
 </html>

@@ -12,5 +12,7 @@
     <?php
     include 'TA1header.php';
     ?>
+    <button>Log in as Administrator</button>
+    <button>Log in as Tester</button>
 </body>
 </html>
