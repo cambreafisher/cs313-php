@@ -12,12 +12,28 @@
     <h1>The Kelvan: something to do with pictures</h1>
 <?php
 $page = basename($_SERVER['PHP_SELF']);
-echo "<div>
-<a href= 'TA1about-us.php'>About Us</a>
-<a href= 'TA1home.php'>Home</a>
-<a href= 'TA1login.php'>Login</a>
-</div>";
 
+if ($page == 'TA1about-us.php') {
+    echo "<div>
+    <a href= 'TA1about-us.php' style='font-weight:bold;'>About Us</a>
+    <a href= 'TA1home.php'>Home</a>
+    <a href= 'TA1login.php'>Login</a>
+    </div>";
+}
+else if ($page == 'TA1home.php') {
+    echo "<div>
+    <a href= 'TA1about-us.php'>About Us</a>
+    <a href= 'TA1home.php' style='font-weight:bold;'>Home</a>
+    <a href= 'TA1login.php'>Login</a>
+    </div>";
+}
+else if ($page == 'TA1login.php') {
+    echo "<div>
+    <a href= 'TA1about-us.php'>About Us</a>
+    <a href= 'TA1home.php'>Home</a>
+    <a href= 'TA1login.php' style='font-weight:bold;'>Login</a>
+    </div>";
+}
 
 ?> 
 </body>
