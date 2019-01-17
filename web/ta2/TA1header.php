@@ -10,13 +10,15 @@
 </head>
 <body>
     <h1>The Kelvan: something to do with pictures</h1>
-    <div>
-    <a href= 'TA1about-us.php'>About Us</a>
-    <a href= 'TA1home.php'>Home</a>
-    <a href= 'TA1login.php'>Login</a>
-    </div>
 <?php
-echo basename($_SERVER['PHP_SELF']);
+$page = basename($_SERVER['PHP_SELF']);
+echo "<div>
+<a href= 'TA1about-us.php'>About Us</a>
+<a href= 'TA1home.php'>Home</a>
+<a href= 'TA1login.php'>Login</a>
+</div>";
+
+
 ?> 
 </body>
 </html>
