@@ -9,7 +9,17 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>Cambrea Fisher</h1>
+    <?php
+    $page = basename($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
+    ?>
+    <div>
+        <li class="header <?php if ($page == 'homepage') echo 'active' ?>">
+        <a href="homepage.php">Home</a>
+    </li>
+    <li class="header <?php if ($page == 'contents') echo 'active'?>">
+    <a href="contents.php">Assignments</a>
+    </li>
+    </div>
     
 </body>
 </html>
