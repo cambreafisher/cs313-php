@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box
+}
+
+/* Set a background color */
+body {
+    background-coloe: #474e5d;
+    font-family: Helvetica, sans-serif;
+}
+
+/* the timeline rules */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+
