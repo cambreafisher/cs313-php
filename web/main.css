@@ -1,3 +1,13 @@
-.active {
+.header-container {
+    background-color: #428cf4;
+
+}
+a:link {
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: block;
+}
+a:active {
     font-weight: bold;
 }

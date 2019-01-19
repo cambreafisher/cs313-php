@@ -11,7 +11,7 @@
     <?php
     $page = basename($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
     ?>
-    <div>
+    <div class="header-container">
         <a href="homepage.php" 
         class="header <?php if ($page == 'homepage') echo 'active'?>">Home</a>
     <a href="contents.php" 
