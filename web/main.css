@@ -2,12 +2,13 @@
     background-color: #4a603b;
 
 }
-a:link {
+a {
     text-decoration: none;
     padding: 14px 50px;
     text-align: center;
     display: inline-block;
     color: beige;
+    font-family: "Century Gothic";
 }
 a:active {
     font-weight: bold;
