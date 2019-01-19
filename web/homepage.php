@@ -10,6 +10,8 @@
 </head>
 <body>
     <h1>Cambrea Fisher</h1>
-    
+    <?php
+    include header.php;
+    ?>
 </body>
 </html>
