@@ -9,6 +9,10 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <?php
+    include 'header.php';
+    ?>
+    
     <div class="timeline">
         <div class="container left">
             <div class="content">
