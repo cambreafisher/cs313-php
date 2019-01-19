@@ -9,14 +9,14 @@
 </head>
 <body>
     <?php
-    $page = basename($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
+    $page = basename($_SERVER['PHP_SELF']);
     echo "<h1>$page"
     ?>
     <div class="header-container">
         <a href="homepage.php" 
-        class="<?php if ($page == 'homepage') echo 'header'?>">Home</a>
+        class="<?php if ($page == 'homepage.php') echo 'header'?>">Home</a>
     <a href="contents.php" 
-    class="<?php if ($page == 'contents') echo 'header'?>">Assignments</a>
+    class="<?php if ($page == 'contents.php') echo 'header'?>">Assignments</a>
     </div>
     
 </body>
