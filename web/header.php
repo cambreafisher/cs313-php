@@ -13,9 +13,9 @@
     ?>
     <div class="header-container">
         <a href="homepage.php" 
-        class="header <?php if ($page == 'homepage') echo 'active'?>">Home</a>
+        class="<?php if ($page == 'homepage') echo 'header'?>">Home</a>
     <a href="contents.php" 
-    class="header <?php if ($page == 'contents') echo 'active'?>">Assignments</a>
+    class="<?php if ($page == 'contents') echo 'header'?>">Assignments</a>
     </div>
     
 </body>
