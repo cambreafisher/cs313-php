@@ -6,19 +6,16 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
 </head>
 <body>
     <?php
     $page = basename($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
     ?>
     <div>
-        <li class="header <?php if ($page == 'homepage') echo 'active' ?>">
-        <a href="homepage.php">Home</a>
-    </li>
-    <li class="header <?php if ($page == 'contents') echo 'active'?>">
-    <a href="contents.php">Assignments</a>
-    </li>
+        <a href="homepage.php" 
+        class="header <?php if ($page == 'homepage') echo 'active'?>">Home</a>
+    <a href="contents.php" 
+    class="header <?php if ($page == 'contents') echo 'active'?>">Assignments</a>
     </div>
     
 </body>
