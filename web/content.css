@@ -84,8 +84,3 @@ body {
 .left::after, .right::after {
     left: 15px;
 }
-
-/*make all right containers behave like the left ones */
-.right {
-    left: 0%;
-}
