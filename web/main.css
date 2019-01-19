@@ -12,6 +12,6 @@ a {
     color: beige;
     font-family: "Century Gothic";
 }
-a:active {
+a:header {
     font-weight: bold;
 }
