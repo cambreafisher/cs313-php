@@ -2,7 +2,9 @@
     font-family: "Century Gothic";
 }
 
-
+h1, p {
+    padding: 10%;
+}
 .header-container {
     background-color: #4a603b;
     padding-top: 15px;

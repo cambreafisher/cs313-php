@@ -13,8 +13,19 @@
     include 'header.php';
     ?>
     <div>
-    <img src="https://i.pinimg.com/736x/9f/19/6b/9f196bf59060933e364140418a6eb1c0--inspirational-quote-about-life-quotes-about-life.jpg" alt="pottery">
+        <div>
+            <img src="https://i.pinimg.com/736x/9f/19/6b/9f196bf59060933e364140418a6eb1c0--inspirational-quote-about-life-quotes-about-life.jpg" alt="pottery">
+            <div>
+                <p>Ever since I was in middle school I've wanted to take a ceramics class. So, since this is my last
+        semester I decided to take the class. I love working with my hands and see something come to life.
+</p>
+</div>
+</div>
     <img src="http://eagleriverengines.com/wp-content/uploads/2016/05/Small-engine-repair-work-includes-cleaning-of-the-engine-parts-and-casings-an-checking-all-components-for-wear-and-tolerances.jpg" alt="small engine">
+    <div>
+        <p>Small Engines is another class I'm taking this semester. It's surprising how simple an engine is.
+        This is another class that I'm really enjoying. I love seeing what the world is made of.</p>
     </div>
+</div>
 </body>
 </html>

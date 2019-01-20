@@ -13,5 +13,6 @@
     <?php
     include 'header.php';
     ?>
+    <p>Feel free to explore! The tabs are the limit.</p>
     </body> 
 </html>
