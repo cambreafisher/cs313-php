@@ -21,3 +21,15 @@ a {
 a:header {
     font-weight: bold;
 }
+
+.ceramics {
+    display: inline-block;
+}
+
+.smallEng {
+    display: inline-block;
+}
+
+.webDev {
+    display: inline-block;
+}
