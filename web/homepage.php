@@ -6,7 +6,6 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-    <script href="dynamic.js"></script>
 </head>
 <body>
     <h1>Web Engineering II</h1>
@@ -18,5 +17,6 @@
         <p>Would you rather view in Dark Mode?</p>
     <button onclick="changeColor()">Go Dark!</button>
 </div>
+<script href="dynamic.js"></script>
     </body> 
 </html>
