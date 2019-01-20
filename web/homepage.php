@@ -10,5 +10,8 @@
 </head>
 <body>
     <h1>Web Engineering II</h1>
+    <?php
+    include 'header.php';
+    ?>
     </body> 
 </html>
