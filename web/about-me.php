@@ -16,7 +16,8 @@
     <form>
     What is your favorite thing to do?<br>
     <input type="text" name="favoritething"><br>
-    <input type="submit" value="Submit" class="submit" onclick="congrats()">
+    <button type='button' onclick="congrats()">Submit</button>
+
 
 <div id="result"></div>
     <div class="pictures">
