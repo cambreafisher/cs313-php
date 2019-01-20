@@ -32,10 +32,11 @@
             </p>
     </div>
 </div>
-<p>What is your favorite thing to do?</p>
-<input class="submit" type="submit" value="Submit" onclick="congrats()">
-<div id="result">
+<form>
+    What is your favorite thing to do?<br>
+    <input type="text" name="favoritething"><br>
+    <input type="submit" value="Submit" class="submit" onclick="congrats()">
 
-</div>
+<div id="result"></div>
 </body>
 </html>
