@@ -38,3 +38,7 @@ a:header {
 .webDev {
     display: inline-block;
 }
+
+#results {
+    padding: 15%;
+}

@@ -13,6 +13,12 @@
 <?php
     include 'header.php';
     ?>
+    <form>
+    What is your favorite thing to do?<br>
+    <input type="text" name="favoritething"><br>
+    <input type="submit" value="Submit" class="submit" onclick="congrats()">
+
+<div id="result"></div>
     <div class="pictures">
         <div class="ceramics">
             <img src="https://i.pinimg.com/736x/9f/19/6b/9f196bf59060933e364140418a6eb1c0--inspirational-quote-about-life-quotes-about-life.jpg" alt="pottery">
@@ -32,11 +38,5 @@
             </p>
     </div>
 </div>
-<form>
-    What is your favorite thing to do?<br>
-    <input type="text" name="favoritething"><br>
-    <input type="submit" value="Submit" class="submit" onclick="congrats()">
-
-<div id="result"></div>
 </body>
 </html>
