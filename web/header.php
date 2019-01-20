@@ -10,7 +10,6 @@
 <body>
     <?php
     $page = basename($_SERVER['PHP_SELF']);
-    echo "<h1>$page"
     ?>
     <div class="header-container">
         <a href="homepage.php" 

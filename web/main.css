@@ -1,3 +1,8 @@
+* {
+    font-family: "Century Gothic";
+}
+
+
 .header-container {
     background-color: #4a603b;
     padding-top: 15px;
@@ -10,7 +15,6 @@ a {
     text-align: center;
     display: inline-block;
     color: beige;
-    font-family: "Century Gothic";
 }
 a:header {
     font-weight: bold;
