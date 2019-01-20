@@ -46,3 +46,9 @@ a:header {
 #webDev {
     display: none;
 }
+
+button {
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+}
