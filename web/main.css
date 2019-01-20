@@ -2,9 +2,14 @@
     font-family: "Century Gothic";
 }
 
-h1, p {
+h1 {
     padding: 10%;
 }
+
+img {
+    padding: 5%;
+}
+
 .header-container {
     background-color: #4a603b;
     padding-top: 15px;

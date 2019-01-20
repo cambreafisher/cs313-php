@@ -12,7 +12,6 @@
     <?php
     include 'header.php';
     ?>
-
     <div class="timeline">
         <div class="container left">
             <div class="content">
@@ -20,9 +19,6 @@
                 <p>This page is currently under construction</p>
             </div>
             <div class="container right">
-                <h1>Prove Assignment Coming Near You</h1>
-                <p>Still Under Construction</p>
-
             </div>
         </div>
     </div>

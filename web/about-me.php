@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src=""></script>
+    <script src="dynamic.js"></script>
 </head>
 <body>
+    <h1>About Me</h1>
 <?php
     include 'header.php';
     ?>
@@ -30,6 +31,11 @@
                 my skills in web development.
             </p>
     </div>
+</div>
+<p>What is your favorite thing to do?</p>
+<input class="submit" type="submit" value="Submit" onclick="congrats()">
+<div id="result">
+
 </div>
 </body>
 </html>
