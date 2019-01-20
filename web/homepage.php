@@ -13,6 +13,6 @@
     <?php
     include 'header.php';
     ?>
-    <img src="https://photos.google.com/share/AF1QipMnmnzp7PNzvN9LsQRT1rdjCIf0SMC91tzwqtlIyV1QC9AIuQN12kVcTjetrlOtYg?key=akpJUTd0SnNRc2FPOTZocHcwdW82MklQUXBKQTJB&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/BsnBB6RYRHzBButkAy30yv1LWBmT_XZb5uUGp_0K8Fp85y2gqS_MCuswCjMIXLg8nzeyyVUu9p3KYCvqRK1RiHPC8hYWuPs2kDDkcFVr27Q51nJmpOWKC8M_QKtwV842SmzCLN6X=w2400" alt="first day of school">
+    <img src="https://i.pinimg.com/736x/9f/19/6b/9f196bf59060933e364140418a6eb1c0--inspirational-quote-about-life-quotes-about-life.jpg" alt="first day of school">
 </body>
 </html>
