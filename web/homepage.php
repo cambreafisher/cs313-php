@@ -6,12 +6,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-    <script>
-    function pickupLine() {
-    document.getElementById("results").innerHTML = "Are you from Tennessee? Because you're the only TEN I SEE!";
-    return false;
-}
-</script>
+    <script type = "text/javascript" src = "dynamic.js" ></script>
 </head>
 <body>
     <h1>Web Engineering II</h1>
