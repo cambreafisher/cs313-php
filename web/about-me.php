@@ -6,18 +6,13 @@
     <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="dynamic.js"></script>
+    <script></script>
 </head>
 <body>
     <h1>About Me</h1>
 <?php
     include 'header.php';
     ?>
-    <form>
-    What is your favorite thing to do?<br>
-    <input type="text" name="favoritething"><br>
-    <button type='button' onclick="congrats()">Submit</button>
-
 
 <div id="result"></div>
     <div class="pictures">
@@ -32,7 +27,7 @@
         <p>Small Engines is another class I'm taking this semester. It's surprising how simple an engine is.
         This is another class that I'm really enjoying. I love seeing what the world is made of.</p>
     </div>
-    <button onclick="showDiv(webDev)">Web Development</button>
+   
 <div id="webDev">
         <img src="https://icwe2018.webengineering.org/assets/images/about-us.jpg" alt="web">
             <p>I'm taking two web classes. I'm throughly enjoying them and enjoying learning and developing

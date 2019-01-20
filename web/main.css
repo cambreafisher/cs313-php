@@ -42,3 +42,7 @@ a:header {
 #results {
     padding: 15%;
 }
+
+#webDev {
+    display: none;
+}
