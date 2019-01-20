@@ -1,5 +1,4 @@
-function changeColor() {
-    document.body.style.backgroundColor = '#2b2e33';
-    document.body.style.color = 'white';
+function pickupLine() {
+    document.getElementById("results").innerHTML = "Are you from Tennessee? Because you're the only TEN I SEE!";
     return false;
 }

@@ -15,8 +15,11 @@
     ?>
     <p>Feel free to explore! The tabs are the limit.</p>
     <div class="darkmode">
-        <p>Would you rather view in Dark Mode?</p>
-    <button onclick="changeColor()">Go Dark!</button>
+        <p>Click the button for a pickup line!</p>
+    <button onclick="pickupLine()">Pickup Line</button>
+    <div id="results">
+        
+    </div>
 </div>
 
     </body> 
