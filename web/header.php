@@ -16,6 +16,8 @@
         class="<?php if ($page == 'homepage.php') echo 'header'?>">Home</a>
     <a href="contents.php" 
     class="<?php if ($page == 'contents.php') echo 'header'?>">Assignments</a>
+    <a href="about-me.php"
+    class="<?php if ($page == 'about-me.php') echo 'header'?>">About Me</a>
     </div>
     
 </body>
