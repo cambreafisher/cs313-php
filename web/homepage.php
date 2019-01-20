@@ -13,6 +13,6 @@
     <?php
     include 'header.php';
     ?>
-    <img src="https://photos.app.goo.gl/XFMKtgoGeWnYYB1k6" alt="first day of school">
+    <img src="https://photos.app.goo.gl/BVD9opbLYyac23fm6" alt="first day of school">
 </body>
 </html>
