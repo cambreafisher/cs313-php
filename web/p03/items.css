@@ -6,7 +6,7 @@
     display: block;
 }
 
-.pranksnjokes {
+.snackbox {
     padding: 5%;
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
