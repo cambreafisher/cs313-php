@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" media="screen" href="item.css" />
-    <title>Document</title>
+    <title>Weasley's Wizard Wheezes</title>
 </head>
 <body>
     <?php
     session_start();
-
     ?>
     <div>
-     <img src="dungbomb.jpg" alt="dungbomb"/>
+     <img src="WWW.png" alt="logo" class="logo"/>
+</div>
+<div>
+    <img src="mainPage.png" alt="mainPage">
 </div>
 </body>
 </html>
