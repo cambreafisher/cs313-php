@@ -1,5 +1,15 @@
 .logo {
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
     align-content: center;
+}
+
+.pranksnjokes {
+    display: inline-block;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    
 }
