@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" media="screen" href="item.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="items.css" />
     <title>Weasley's Wizard Wheezes</title>
 </head>
 <body>
@@ -16,6 +16,20 @@
 </div>
 <div>
     <img src="mainPage.png" alt="mainPage">
+</div>
+<div class="pranksnjokes">
+    <div>
+        <img src="skivingSnackbox.jpg" alt="SkivingSnackbox">
+        <h1>Skiving Snackboxes - $20.00</h1>
+    </div>
+    <div>
+        <img src="extendears.jpg" alt="ExtendableEars">
+        <h1>Extendable Ears - $7.00</h1>
+    </div>
+    <div>
+        <img src="unopoocandy.jpg" alt="unopoocandy">
+        <h1>U-No-Poo Candies - $5.00</h1>
+    </div>
 </div>
 </body>
 </html>
