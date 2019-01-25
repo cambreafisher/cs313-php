@@ -1,6 +1,7 @@
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: auto;
+    overflow: hidden;
     align-content: center;
 }
 
@@ -9,7 +10,8 @@
 }
 
 .pic {
-    width: 100px;
-    height: 100px;
-    
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+
 }
