@@ -2,11 +2,13 @@
     width: 20%;
     height: auto;
     overflow: hidden;
-    align-content: center;
+    margin: auto;
+    display: block;
 }
 
 .pranksnjokes {
-    display: inline-block;
+    display: -webkit-inline-box;
+    padding: 5%;
 }
 
 .pic {
