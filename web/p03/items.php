@@ -18,15 +18,15 @@
     <img src="mainPage.png" alt="mainPage">
 </div>
 <div class="pranksnjokes">
-    <div>
+    <div class="snackbox">
         <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
         <h1>Skiving Snackboxes - $20.00</h1>
     </div>
-    <div>
+    <div class="extendears">
         <img src="extendears.jpg" alt="ExtendableEars" class="pic">
         <h1>Extendable Ears - $7.00</h1>
     </div>
-    <div>
+    <div class="candy">
         <img src="unopoocandy.jpg" alt="unopoocandy" class="pic">
         <h1>U-No-Poo Candies - $5.00</h1>
     </div>
