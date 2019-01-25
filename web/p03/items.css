@@ -7,8 +7,11 @@
 }
 
 .pranksnjokes {
-    display: inline-flex;
     padding: 5%;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
 }
 
 .pic {
@@ -17,3 +20,4 @@
     overflow: hidden;
 
 }
+
