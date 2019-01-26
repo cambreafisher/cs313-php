@@ -28,8 +28,6 @@
         <h1 name="price" value="20">20 Galleons</h1>
         <input type="submit" value="Add To Cart"/>
     </form>
-
-
 </div>
 <a href="cart.php">View Cart</a>
      

@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
 <!DOCTYPE <!DOCTYPE html>
 <html>
@@ -14,7 +15,7 @@ session_start();
     <?php
 
     foreach ($cart as $product) {
-        echo "<span>$product</span><br>";
+       var_dump($product);
     }
     ?>
     
