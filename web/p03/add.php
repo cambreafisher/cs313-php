@@ -3,7 +3,7 @@ session_start();
 
 $_SESSION["cart"] = array();
 
-function addItems($item) {
+function addItem($item) {
     array_push($item);
 }
 
