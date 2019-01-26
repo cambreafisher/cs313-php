@@ -1,3 +1,7 @@
+<?php
+    session_start();
+   
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +12,7 @@
     <title>Weasley's Wizard Wheezes</title>
 </head>
 <body>
-    <?php
-    session_start();
-   
-    ?>
+    
     <div>
      <img src="WWW.png" alt="logo" class="logo"/>
 </div>
@@ -19,12 +20,12 @@
     <img src="mainPage.png" alt="mainPage">
 </div>
 <div class="pranksnjokes">
-<div class="snackbox">
-    <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
-    <h1>Skiving Snackboxes - $20.00</h1>
-    <a href="add.php?action=addtocart&itemid=01">Add To Cart</a>
-
-    </div>
+    <form action="add.php" method="POST">
+        <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
+        <h1 name="name" value="skivingsnackbox">Skiving Snackbox</h1>
+        <h1 name="price" value="20">20 Galleons</h1>
+        <input type="submit" value="Add To Cart"/>
+    </form>
 
 
 </div>

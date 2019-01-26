@@ -1,21 +1,20 @@
 <?php
 session_start();
 
-$_SESSION['cart'] = array();
-$action = $_POST['action'];
-$itemid = $_POST['itemid'];
 
+$name = $_POST['name'];
+$price = $_POST['price'];
 
-switch($action) {
+echo "<h1>$name"."$price</h1>";
 
-    case "addtocart":
-    array_push($cart, $itemid);
-    break;
-    case "delete":
-    break;
-    default:
-    break;
+if (!isset($_SESSION['cart'])) {
+    $_SESSION['cart'] = array();
 }
+
+$product = array("name"=>"$name", "price"=>"$price");
+push_array($_SESSION['cart'], $product);
+
+var_dump($_SESSION['cart']);
 
 header('Location: items.php');
 
