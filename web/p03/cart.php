@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +12,6 @@
 <body>
     <h1>Items in your cart</h1>
     <?php
-    session_start();
 
     foreach ($cart as $product) {
         echo "<span>$product</span><br>";
