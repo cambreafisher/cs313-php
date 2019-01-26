@@ -2,14 +2,7 @@
 session_start();
 
 
-$_SESSION[""]
-function addItem($item) {
-    array_push($item);
-}
-
-foreach ($cart as $item) {
-    echo "<script>console.log($item)</script>";
-}
+echo $_POST['name'];
 
 header('Location: items.php');
 
