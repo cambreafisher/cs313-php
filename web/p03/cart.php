@@ -14,7 +14,7 @@ session_start();
     <h1>Items in your cart</h1>
     <?php
 
-    foreach ($cart as $product) {
+    foreach ($_SESSION['cart'] as $product) {
        var_dump($product);
     }
     ?>
