@@ -5,6 +5,8 @@ $_SESSION["cart"] = array();
 
 $item = $_POST['product'];
 
+
+
 header('Location: items.php');
 
 
