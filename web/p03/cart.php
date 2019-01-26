@@ -15,7 +15,11 @@ session_start();
     <?php
 
     foreach ($_SESSION['cart'] as $product) {
-        echo "<h1>$product['name']</h1>";
+        $price = $product['price'];
+        $name = $product['name'];
+
+        echo "<h1>$price</h1>";
+        echo "<h1>$name</h1>";
     }
     ?>
     
