@@ -17,7 +17,7 @@ array_push($_SESSION['cart'], $product);
 
 var_dump($_SESSION['cart']);
 
-header('Location: items.php');
+//header('Location: items.php');
 
 
 ?>
