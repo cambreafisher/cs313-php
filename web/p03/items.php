@@ -10,7 +10,6 @@
 <body>
     <?php
     session_start();
-    $_SESSION["product"];
    
     ?>
     <div>
@@ -23,7 +22,7 @@
 <div class="snackbox">
     <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
     <h1>Skiving Snackboxes - $20.00</h1>
-    <a href="items.php?action=addtocart&itemid=01">Add To Cart</a>
+    <a href="add.php?action=addtocart&itemid=01">Add To Cart</a>
 
     </div>
 
