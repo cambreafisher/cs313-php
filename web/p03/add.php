@@ -12,7 +12,7 @@ if (!isset($_SESSION['cart'])) {
 }
 
 $product = array("name"=>"$name", "price"=>"$price");
-push_array($_SESSION['cart'], $product);
+array_push($_SESSION['cart'], $product);
 
 var_dump($_SESSION['cart']);
 
