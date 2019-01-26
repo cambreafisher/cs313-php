@@ -28,7 +28,7 @@
     <?php
     session_start();
     if( !isset($_SESSION["item"]) ) {
-        echo "<h1>Item is set</h1>";
+        echo "<h1>$item is set</h1>";
     }
     ?>
     </div>
