@@ -7,7 +7,7 @@ session_start();
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Your Cart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -15,7 +15,7 @@ session_start();
     <?php
 
     foreach ($_SESSION['cart'] as $product) {
-       var_dump($product);
+        echo "<h1>$product['name']</h1>";
     }
     ?>
     
