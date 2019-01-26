@@ -23,6 +23,8 @@
     <form action="add.php" method="POST">
         <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
         <h1 name="name" value="skivingsnackbox">Skiving Snackbox</h1>
+        <input type="hidden" name="name" value="skivingsnackbox"/>
+        <input type="hidden" name="price" value="20"/>
         <h1 name="price" value="20">20 Galleons</h1>
         <input type="submit" value="Add To Cart"/>
     </form>
