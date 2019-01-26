@@ -5,7 +5,8 @@ session_start();
 $name = $_POST['name'];
 $price = $_POST['price'];
 
-echo "<h1>$name"."$price</h1>";
+echo "<script>console.log($name)</script>";
+echo "<script>console.log($price)</script>";
 
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = array();
