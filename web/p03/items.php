@@ -10,7 +10,8 @@
 <body>
     <?php
     session_start();
-
+    $_SESSION["cart"] = array();
+    $_SESSION['name']=$_POST['user_name'];
     ?>
     <div>
      <img src="WWW.png" alt="logo" class="logo"/>
@@ -20,15 +21,12 @@
 </div>
 <div class="pranksnjokes">
 <div class="snackbox">
-    <form action="add.php">
+    <form method="post" action="add.php">
         <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
         <h1>Skiving Snackboxes - $20.00</h1>
-        <input type="submit" name="snackbox" value="snackbox" onclick="addItem(snackbox)" />
-   
-        <img src="extendears.jpg" alt="ExtendableEars" class="pic">
-        <h1>Extendable Ears - $7.00</h1>
-        <input type="submit" name="extendears" value="extendears" onclick="addItem(extendears)" />
+        <input type="text" name="user_name">
+        <input type="submit" value="Add To Cart" >
 </form>
-    </div>
+
 </body>
 </html>

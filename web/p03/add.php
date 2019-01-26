@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$_SESSION["cart"] = array();
 
+$_SESSION[""]
 function addItem($item) {
     array_push($item);
 }
