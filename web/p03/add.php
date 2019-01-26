@@ -8,7 +8,7 @@ function addItems($item) {
 }
 
 foreach ($cart as $item) {
-    echo $item;
+    echo "<script>console.log($item)</script>";
 }
 
 header('Location: items.php');
