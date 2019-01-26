@@ -24,6 +24,15 @@
     <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
     <h1>Skiving Snackboxes - $20.00</h1>
     <a href='add.php?product=snackbox'>Add To Cart</a>
+
+    <?php
+    session_start();
+    if( !isset($_SESSION["item"]) ) {
+        echo "<h1>Item is set</h1>";
+    }
+    ?>
+    </div>
+</div>
      
 
 </body>
