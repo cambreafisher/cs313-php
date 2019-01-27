@@ -6,7 +6,7 @@ $name = $_POST['name'];
 echo "<h1>removing $name</h1>";
 
 
-function findID() {
+function findID($name) {
     $cart = $_SESSION['cart'];
     foreach ($cart as $key => $value) {
         echo "<h1>$name "." $key</h1>";
@@ -16,7 +16,7 @@ function findID() {
         }
     }
 }
-$key = findID();
+$key = findID($name);
 echo "<h1>$key</h1>";
 
 //unset($_SESSION['cart'][0]);
