@@ -26,8 +26,6 @@ session_start();
         </form>";
     }
 
-    //remove button
-
     //total
     $_SESSION['total'];
     //checkout button
