@@ -9,8 +9,7 @@ $delivery = htmlspecialchars($_POST['delivery']);
 foreach ($_SESSION['cart'] as $product) {
     $price = $product['price'];
     $name = $product['name'];
-
-    echo "<h1>$price</h1>";
+    
     echo "<h1>$name</h1>";
 }
 
@@ -27,9 +26,6 @@ echo "Delivered by: $delivery";
     <title>Thank You </title>
 </head>
 <body>
-    <h1>Thank you for your purchase</h1>
-
-
 </body>
 </html>
 
