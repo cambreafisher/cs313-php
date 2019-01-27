@@ -29,8 +29,7 @@ session_start();
     //total
     $_SESSION['total'];
     //checkout button
-    <a href="checkout.php">Checkout</a>
     ?>
-    
+    <a href="checkout.php">Checkout</a>
 </body>
 </html>
