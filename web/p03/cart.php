@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 ?>
 <!DOCTYPE <!DOCTYPE html>
 <html>
@@ -20,7 +19,17 @@ session_start();
 
         echo "<h1>$price</h1>";
         echo "<h1>$name</h1>";
+        //remove button
+        
+        echo "";
     }
+
+    //remove button
+
+    //total
+    $_SESSION['total'];
+    //checkout button
+    <a href="checkout.php">Checkout</a>
     ?>
     
 </body>

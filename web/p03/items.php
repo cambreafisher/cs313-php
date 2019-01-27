@@ -22,10 +22,18 @@
 <div class="pranksnjokes">
     <form action="add.php" method="POST">
         <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
-        <h1 name="name" value="skivingsnackbox">Skiving Snackbox</h1>
+        <h1 name="name" value="Skiving Snackbox">Skiving Snackbox</h1>
         <input type="hidden" name="name" value="skivingsnackbox"/>
         <input type="hidden" name="price" value="20"/>
-        <h1 name="price" value="20">20 Galleons</h1>
+        <h1 name="price" value="20">$20.00</h1>
+        <input type="submit" value="Add To Cart"/>
+    </form>
+    <form action="add.php" method="POST">
+        <img src="extendears.jpg" alt="extendears" class="pic">
+        <h1 name="name" value="Extendable Ears">Extendable Ears</h1>
+        <input type="hidden" name="name" value="Extendable Ears"/>
+        <input type="hidden" name="price" value="7"/>
+        <h1 name="price" value="7">$7.00</h1>
         <input type="submit" value="Add To Cart"/>
     </form>
 </div>
