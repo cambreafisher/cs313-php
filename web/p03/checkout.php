@@ -15,6 +15,7 @@ session_start();
         City: <input type="text" name="city"/>
         State: <input type="text" name="state"/>
         Zip Code:<input type="text" name="zip"/>
+        Delivery Method:
         <select name="delivery">
             <option value="broomstick">Broomstick</option>
             <option value="floopowder">Floo Powder</option>

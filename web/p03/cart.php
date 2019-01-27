@@ -20,8 +20,10 @@ session_start();
         echo "<h1>$price</h1>";
         echo "<h1>$name</h1>";
         //remove button
-        
-        echo "";
+        echo "<form action='remove.php' method='POST'>
+        <input type='hidden' name='name' value='$name'/>
+        <input type='submit' value='Remove'/>
+        </form>";
     }
 
     //remove button
