@@ -7,10 +7,10 @@ echo "<h1>removing $name</h1>";
 
 
 function findID() {
-    foreach ($_SESSION['cart'] as $product) {
-        $arrayname = $product['name'];
-        if ($arrayname === $name) {
-            return $product;
+    $cart = $_SESSION['cart'];
+    foreach ($cart as $key => $value) {
+        if ($name === $value["name"]) {
+            return $key;
         }
     }
 }
