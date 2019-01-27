@@ -19,7 +19,7 @@ function findID($name) {
 $key = findID($name);
 echo "<h1>$key</h1>";
 
-//unset($_SESSION['cart'][0]);
+unset($_SESSION['cart'][$key]);
 
 var_dump($_SESSION['cart']);
 
