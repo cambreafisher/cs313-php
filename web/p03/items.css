@@ -6,6 +6,9 @@
     display: block;
 }
 
+.mainPage {
+    margin-bottom: 5%
+}
 .snackbox {
     padding: 5%;
     display: inline-grid;
@@ -19,5 +22,10 @@
     height: auto;
     overflow: hidden;
 
+}
+
+.product {
+    margin: 5%;
+    
 }
 

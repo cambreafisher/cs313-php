@@ -17,9 +17,10 @@
      <img src="WWW.png" alt="logo" class="logo"/>
 </div>
 <div>
-    <img src="mainPage.png" alt="mainPage">
+    <img src="mainPage.png" alt="mainPage" class="mainPage">
 </div>
 <div class="pranksnjokes">
+    <div class="product">
     <form action="add.php" method="POST">
         <img src="skivingSnackbox.jpg" alt="SkivingSnackbox" class="pic">
         <h1 name="name" value="Skiving Snackbox">Skiving Snackbox</h1>
@@ -28,6 +29,8 @@
         <h1 name="price" value="20">$20.00</h1>
         <input type="submit" value="Add To Cart"/>
     </form>
+</div>
+<div class="product">
     <form action="add.php" method="POST">
         <img src="extendears.jpg" alt="extendears" class="pic">
         <h1 name="name" value="Extendable Ears">Extendable Ears</h1>
