@@ -18,14 +18,9 @@ $db = get_db();
         </div>
         <div id="bottom">
             <button>Remove Food</button>
-            <button>View Pantry</button>
+            <form action="pantry.php" method="GET"><button type="submit">View Pantry</button></form>
         </div>
     </div>
-    <h1>Your Pantry:</h1>
-    <?php
-    foreach ($db->query('SELECT food_name FROM FOOD') as $row) {
-        echo '<ul> ' . $row['food_name'] . '</ul>';
-    }
-    ?>
+    
 </body>
 </html>
