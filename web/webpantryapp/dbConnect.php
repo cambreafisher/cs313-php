@@ -1,4 +1,5 @@
 <?php
+function get_db() {
 try{
     $dbUrl = getenv('DATABASE_URL');
 
@@ -20,4 +21,5 @@ catch (PDOException $ex)
     die();
 }
 return $db;
+}
 ?>
