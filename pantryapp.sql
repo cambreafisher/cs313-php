@@ -43,7 +43,16 @@ CREATE TABLE USR(
   ,FOREIGN KEY (usr_list) REFERENCES LIST(list_id)
 );
 
+INSERT INTO FOOD (food_name, expiration_date)
+VALUES ('Yellow Cake Mix', '2020-09-24');
 
+INSERT INTO FOOD (food_name, expiration_date)
+VALUES ('Eggs', '2019-02-20');
 
+INSERT INTO FOOD (food_name, expiration_date)
+VALUES ('Oil', '2020-12-12');
 
+INSERT INTO FOOD (food_name, expiration_date)
+VALUES ('Cool Whip', '2019-03-09');
 
+SELECT * FROM FOOD;
