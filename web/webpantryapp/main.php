@@ -14,7 +14,7 @@ $db = get_db();
 <div id="buttons">
         <div id="top">
                  <button>Add Food</button>
-                 <button>Shopping List</button> 
+                 <form action="shopping.php" method="GET"><button type="submit">Shopping List</button></form> 
         </div>
         <div id="bottom">
             <button>Remove Food</button>
