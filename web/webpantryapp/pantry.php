@@ -17,5 +17,6 @@ $db = get_db();
         echo '<ul> ' . $row['food_name'] . '</ul>';
     }
     ?>
+    <form action="main.php" method="GET"><button type="submit">Back to Home</button></form>
 </body>
 </html>
