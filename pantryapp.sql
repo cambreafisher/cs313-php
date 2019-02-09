@@ -55,4 +55,29 @@ VALUES ('Oil', '2020-12-12');
 INSERT INTO FOOD (food_name, expiration_date)
 VALUES ('Cool Whip', '2019-03-09');
 
-SELECT * FROM FOOD;
+
+INSERT INTO SHOPPING(food_name, quantity)
+VALUES ('Strawberries', 1);
+
+INSERT INTO SHOPPING(food_name, quantity)
+VALUES ('Kiwi', 3);
+
+INSERT INTO SHOPPING(food_name, quantity)
+VALUES ('Bananas', 2);
+
+INSERT INTO SHOPPING(food_name, quantity)
+VALUES ('Vanilla Pudding', 1);
+
+INSERT INTO PANTRY(pantry_food_id, quantity)
+VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Cool Whip'), 1);
+
+INSERT INTO PANTRY(pantry_food_id, quantity)
+VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Yellow Cake Mix'), 1);
+
+INSERT INTO PANTRY(pantry_food_id, quantity)
+VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Eggs'), 2);
+
+INSERT INTO PANTRY(pantry_food_id, quantity)
+VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Oil'), 1);
+
+INSERT INTO LIST()
