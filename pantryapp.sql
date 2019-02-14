@@ -55,6 +55,9 @@ VALUES ('Oil', '2020-12-12');
 INSERT INTO FOOD (food_name, expiration_date)
 VALUES ('Cool Whip', '2019-03-09');
 
+INSERT INTO FOOD (food_name, expiration_date)
+VALUES ('Frosting', '2018-03-09');
+
 
 INSERT INTO SHOPPING(food_name, quantity)
 VALUES ('Strawberries', 1);
