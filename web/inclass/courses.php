@@ -31,11 +31,6 @@ $courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
         echo "<li><a href='notes.php?course_id=$id'>$course_code - $name</li>\n";
     }
 ?>
-<ul>
-    <li>CS xx - text</li>
-    <li>CS yy - text again</li>
-    <li>CIT</li>
-</ul>
-    
+  
 </body>
 </html>
