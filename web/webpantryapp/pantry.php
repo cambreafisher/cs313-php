@@ -15,11 +15,13 @@ $db = get_db();
 <script>
     const foodlist = [
     <?php
-    foreach ($db->query('SELECT food_name FROM FOOD') as $row) {
-        echo '"' . $row['food_name'] . '",';
+    foreach ($db->query('SELECT food_name, expiration_date FROM FOOD') as $row) {
+        echo '{name:"' . $row['food_name'] . '", expires: '.$row['expiration_date']. '"}';
     }
     ?>
 ];
+
+
     </script>
     <form action="main.php" method="GET"><button type="submit">Back to Home</button></form>
 </body>

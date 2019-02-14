@@ -83,3 +83,7 @@ VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Eggs'), 2);
 INSERT INTO PANTRY(pantry_food_id, quantity)
 VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Oil'), 1);
 
+
+DELETE FROM FOOD WHERE expiration_date IS NULL;
+
+
