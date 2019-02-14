@@ -42,7 +42,7 @@ $db = get_db();
        <ul>
        <li>${food.name}</li>
        </ul>`
-   }
+   
     }
     </script>
     <form action="main.php" method="GET"><button type="submit">Back to Home</button></form>
