@@ -12,11 +12,15 @@ $db = get_db();
 </head>
 <body>
 <h1>Your Pantry:</h1>
+<script>
+    const foodlist = [
     <?php
     foreach ($db->query('SELECT food_name FROM FOOD') as $row) {
-        echo '<ul> ' . $row['food_name'] . '</ul>';
+        echo '"' . $row['food_name'] . '",';
     }
     ?>
+];
+    </script>
     <form action="main.php" method="GET"><button type="submit">Back to Home</button></form>
 </body>
 </html>
