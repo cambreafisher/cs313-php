@@ -12,6 +12,8 @@ $db = get_db();
 </head>
 <body>
 <h1>Your Pantry:</h1>
+<ul id="pantryitems" class="pantryitems">
+</ul>
 <script>
     const foodlist = [
     <?php
@@ -21,7 +23,27 @@ $db = get_db();
     ?>
 ];
 
+   const listElement = document.getElementById('pantryitems');
+   listElement.innerHTML = document.getElementById('pantryitems');
 
+   foodlist.forEach(food => {
+       listElement.appendChild(displayfood(food));
+       renderfood(food);
+   });
+
+   function displayfood(food) {
+       const item = document.createElement('h1');
+       item.innerText = food.name;
+   }
+
+   function renderfood(food) {
+       const item = document.createElement('li');
+       item.innerHTML = `
+       <ul>
+       <li>${food.name}</li>
+       </ul>
+   }
+    }
     </script>
     <form action="main.php" method="GET"><button type="submit">Back to Home</button></form>
 </body>
