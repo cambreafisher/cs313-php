@@ -31,6 +31,8 @@ $courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
         echo "<li><a href='notes.php?course_id=$id'>$course_code - $name</li>\n";
     }
 ?>
+
+
   
 </body>
 </html>

@@ -30,5 +30,16 @@ $course = $stmt->fetchAll(PDO::FETCH_ASSOC);
     $course_code = $course['course_code'];
     echo "<h1>Notes for $course_name - $course_code</h1>";
     ?>
+
+<form action="insert_note.php" method="post">
+<input type="date" name="date" /><br>
+<input type="hidden" name="course_id" value="<? echo '$course_id'; ?>"><br>
+<textarea name ="content"></textarea><br>
+<input type="submit" value="Create Note">
+</form>
+
+<br>
+<br>
+
 </body>
 </html>
