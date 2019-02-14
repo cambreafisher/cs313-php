@@ -17,11 +17,12 @@ $db = get_db();
         <div id="top">
                  <button class="open-button" onclick="openForm()">Add Food</button>
                  <div class="form-popup" id="myForm">
-                     <form action="additem.php" class="form-container">
+                     <form action="additem.php" method="POST" class="form-container">
                          <h1>Add Food</h1>
                          <label for="foodname"><b>Food</b></label>
                          <input type="text" name="foodname">
 </form>
+</div>
                  <form action="shopping.php" method="GET"><button type="submit">Shopping List</button></form> 
         </div>
         <div id="bottom">
