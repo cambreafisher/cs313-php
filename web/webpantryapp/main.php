@@ -21,6 +21,7 @@ $db = get_db();
                          <h1>Add Food</h1>
                          <label for="foodname"><b>Food</b></label>
                          <input type="text" name="foodname">
+                         <button type="submit" class="submit-button">Add</button>
 </form>
 </div>
                  <form action="shopping.php" method="GET"><button type="submit">Shopping List</button></form> 
