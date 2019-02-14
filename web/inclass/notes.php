@@ -3,6 +3,17 @@ require 'dbConnect.php';
 $db = get_db();
 
 $course_id = $_GET["course_id"];
+
+$query = 'SELECT id, name, course_code FROM course WHERE id=:id';
+//prepare query
+$stmt = $db->prepare($query);
+//binding the value to save from SQL injection
+$stmt->bindValue(':id', $course_id, PDO::PARAM_INT);
+//execute it
+$stmt->execute();
+//binding values
+$course = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +26,9 @@ $course_id = $_GET["course_id"];
 <body>
     
     <?php
-    echo "<h1>Notes for $course_id</h1>";
+    $course_name = $course['course_name'];
+    $course_code = $course['course_code'];
+    echo "<h1>Notes for $course_name - $course_code";
     ?>
 </body>
 </html>
