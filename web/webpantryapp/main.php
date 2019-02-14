@@ -30,5 +30,10 @@ $db = get_db();
         </div>
     </div>
     
+    <script>
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+    </script>
 </body>
 </html>
