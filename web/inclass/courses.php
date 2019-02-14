@@ -17,6 +17,7 @@ $db = get_db();
 <ul>
     <li>CS xx - text</li>
     <li>CS yy - text again</li>
+    <li>CIT</li>
 </ul>
     
 </body>
