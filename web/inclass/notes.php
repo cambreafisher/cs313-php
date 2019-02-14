@@ -28,7 +28,7 @@ $course = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <?php
     $course_name = $course['course_name'];
     $course_code = $course['course_code'];
-    echo "<h1>Notes for $course_name - $course_code";
+    echo "<h1>Notes for $course_name - $course_code</h1>";
     ?>
 </body>
 </html>
