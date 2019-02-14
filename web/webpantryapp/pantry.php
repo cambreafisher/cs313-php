@@ -41,7 +41,7 @@ $db = get_db();
        item.innerHTML = `
        <ul>
        <li>${food.name}</li>
-       </ul>
+       </ul>`
    }
     }
     </script>
