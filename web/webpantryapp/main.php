@@ -22,7 +22,7 @@ $db = get_db();
                          <label for="foodname"><b>Food</b></label>
                          <input type="text" name="foodname">
                          <label for="expires"><b>Expiration Date</b></label>
-                         <input type="text" name="foodname">
+                         <input type="text" name="expires">
                          <button type="submit" class="submit-button">Add</button>
 </form>
 </div>
