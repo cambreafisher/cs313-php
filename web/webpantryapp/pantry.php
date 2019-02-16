@@ -18,7 +18,7 @@ $db = get_db();
 <script>
     const foodlist = [
     <?php
-    foreach ($db->query('SELECT food_name, expiration_date FROM FOOD') as $row) {
+    foreach ($db->query('SELECT food_id, food_name, expiration_date FROM FOOD') as $row) {
         $foodid = $row['food_id'];
         $name = $row['food_name'];
         $expires = $row['expiration_date'];
