@@ -8,22 +8,22 @@ $expires = htmlspecialchars($_POST['expires']);
 echo $foodname;
 echo $expires;
 
-/*try {
-    $query = $db->prepare('INSERT INTO FOOD (food_name, expiration_date) 
+try {
+    $statement = $db->prepare('INSERT INTO FOOD (food_name, expiration_date) 
                             VALUES (:foodname, :expires)');
-    $statement = $db->prepare($query);
     $statement->bindValue('food_name', $foodname, PDO::PARAM_STR);
     $statement->bindValue(':expiration_date', $expires, PDO::PARAM_STR);
     $result = $statement->execute();
     
 }
-*/
 
+/*
 try {
     $stmt = $db->prepare('INSERT INTO FOOD (food_name, expiration_date) 
                             VALUES (:foodname, :expires)');
     $stmt->execute(array(':foodname' => $foodname, ':expires' => $expires));
 }
+*/
 catch (exception $e) {
     echo "Fail";
 }
