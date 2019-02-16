@@ -28,10 +28,6 @@ $db = get_db();
 </div>
                  <form action="shopping.php" method="GET"><button type="submit">Shopping List</button></form> 
         </div>
-        <div id="bottom">
-            <button>Remove Food</button>
-            <form action="pantry.php" method="GET"><button type="submit">View Pantry</button></form>
-        </div>
     </div>
     
     <script>

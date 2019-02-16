@@ -13,13 +13,23 @@ $db = get_db();
 <body>
 <h1>Your Pantry:</h1>
 <ul id="pantryitems" class="pantryitems">
-    <li>
+    <li><form action="removeitem.php" method="POST">
+        <h1 name="foodname">corn</h1>
+        <input type="hidden" name="foodname" value="corn" />
+        <input type="hidden" name="foodid" value="45"/>
+        <input type="hidden" name="expires" value="2019-03-04">
+        <input type="submit" value="Remove"/>
+    </form></li>
 </ul>
 <script>
     const foodlist = [
     <?php
-    foreach ($db->query('SELECT food_name, expiration_date FROM FOOD') as $row) {
-        echo '{name:"' . $row['food_name'] . '", expires: "'.$row['expiration_date']. '"},';
+    foreach ($db->query('SELECT food_id, food_name, expiration_date FROM FOOD') as $row) {
+        $foodid = $row['food_id'];
+        $name = $row['food_name'];
+        $expires = $row['expiration_date'];
+        echo "{id: $foodid, name: $name, expires: $expires}";
+        //echo '{name:"' . $row['food_name'] . '", expires: "'.$row['expiration_date']. '"},';
     }
     ?>
 ];
