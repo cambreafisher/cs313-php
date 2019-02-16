@@ -12,10 +12,19 @@ $db = get_db();
 </head>
 <body>
 <h1>Your Shopping List:</h1>
+<form action="addshop.php" method="POST" class="form-container" id="myForm">
+                    <h1>Add Food</h1>
+                    <label for="foodname"><b>Food</b></label>
+                    <input type="text" name="foodname">
+                    <button type="submit" class="submit-button">Add</button>
+            </form>
 <ul id="shopitems" class="list">
     <li>
 </ul>
 <script>
+function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
 const shoplist = [
     <?php
     foreach ($db->query('SELECT item_id, food_name FROM SHOPPING') as $row) {
@@ -23,7 +32,6 @@ const shoplist = [
     }
     ?>
 ];
-
 
 //sort the list of food alphabetically so they can be displayed
 shoplist.sort(function(a, b){
@@ -51,12 +59,7 @@ shoplist.sort(function(a, b){
    return item;
     }
     </script>
-            <form action="addshop.php" method="POST" class="form-container">
-                    <h1>Add Food</h1>
-                    <label for="foodname"><b>Food</b></label>
-                    <input type="text" name="foodname">
-                    <button type="submit" class="submit-button">Add</button>
-            </form>
+   
    <form action="main.php" method="GET"><button type="submit">Back to Home</button></form>
 </body>
 </html>
