@@ -22,7 +22,7 @@ $db = get_db();
         $foodid = $row['food_id'];
         $name = $row['food_name'];
         $expires = $row['expiration_date'];
-        echo "{id: $foodid, name: $name, expires: $expires}";
+        //echo "{id: $foodid, name: $name, expires: $expires}";
         //echo '{name:"' . $row['food_name'] . '", expires: "'.$row['expiration_date']. '"},';
     }
     ?>
