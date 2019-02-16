@@ -16,6 +16,6 @@ catch (exception $e) {
     echo "Fail";
 }
 
-//header('Location: pantry.php');
+header('Location: pantry.php');
 ?>
 
