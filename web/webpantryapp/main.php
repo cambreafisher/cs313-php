@@ -20,13 +20,16 @@ $db = get_db();
                      <form action="additem.php" method="POST" class="form-container">
                          <h1>Add Food</h1>
                          <label for="foodname"><b>Food</b></label>
-                         <input type="text" name="foodname"><br>
+                         <input type="text" name="foodname">
                          <label for="expires"><b>Expiration Date</b></label>
-                         <input type="text" name="expires">
+                         <input type="text" name="foodname">
                          <button type="submit" class="submit-button">Add</button>
 </form>
 </div>
                  <form action="shopping.php" method="GET"><button type="submit">Shopping List</button></form> 
+        </div>
+        <div id="bottom">
+            <form action="pantry.php" method="GET"><button type="submit">View Pantry</button></form>
         </div>
     </div>
     
