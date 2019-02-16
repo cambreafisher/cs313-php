@@ -28,6 +28,13 @@ $db = get_db();
     ?>
 ];
 
+//sort the list of food alphabetically so they can be displayed
+foodlist.sort(function(a, b){
+    if(a.name < b.name) {return -1;}
+    if(a.name > b.name) {return 1;}
+    return 0;
+})
+
    const listElement = document.getElementById('pantryitems');
    listElement.innerHTML = document.getElementById('pantryitems');
 
