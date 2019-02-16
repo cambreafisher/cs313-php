@@ -19,8 +19,8 @@ $db = get_db();
                  <div class="form-popup" id="myForm">
                      <form action="additem.php" method="POST" class="form-container">
                          <h1>Add Food</h1>
-                         <label for="itemname"><b>Food</b></label>
-                         <input type="text" name="itemname">
+                         <label for="foodname"><b>Food</b></label>
+                         <input type="text" name="foodname"><br>
                          <label for="expires"><b>Expiration Date</b></label>
                          <input type="text" name="expires">
                          <button type="submit" class="submit-button">Add</button>
