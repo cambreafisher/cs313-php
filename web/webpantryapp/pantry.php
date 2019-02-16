@@ -39,7 +39,7 @@ $db = get_db();
        const item = document.createElement('li');
        item.innerHTML = `
        <form action="removeitem.php" method="POST">
-        <h1 name="foodname">corn</h1>
+        <h1 name="foodname">${food.name}</h1>
         <input type="hidden" name="foodname" value="${food.name}" />
         <input type="hidden" name="foodid" value="${food.foodid}"/>
         <input type="hidden" name="expires" value="${food.expires}">
