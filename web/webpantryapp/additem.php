@@ -5,7 +5,8 @@ $db = get_db();
 $foodname = htmlspecialchars($_POST['foodname']);
 $expires = htmlspecialchars($_POST['expires']);
 
-
+echo $foodname;
+echo $expires;
 try {
     $stmt = $db->prepare('INSERT INTO FOOD (food_name, expiration_date) 
                             VALUES (:foodname, :expires)');
@@ -15,6 +16,6 @@ catch (exception $e) {
     echo "Fail";
 }
 
-header('Location: pantry.php');
+//header('Location: pantry.php');
 ?>
 
