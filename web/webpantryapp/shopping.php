@@ -19,7 +19,7 @@ $db = get_db();
 const shoplist = []
     <?php
     foreach ($db->query('SELECT item_id, food_name FROM SHOPPING') as $row) {
-        echo '{foodid:"' . $row['item_id'] .'",name:"'. $row['food_name'] . '"},';
+        echo '{foodid:"' . $row['item_id'] .'", name:"'. $row['food_name'] . '"},';
     }
     ?>
 ];
