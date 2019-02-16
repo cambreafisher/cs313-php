@@ -85,5 +85,3 @@ VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Oil'), 1);
 
 
 DELETE FROM FOOD WHERE expiration_date IS NULL;
-
-
