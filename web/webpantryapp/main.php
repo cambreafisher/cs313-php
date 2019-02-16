@@ -20,9 +20,9 @@ $db = get_db();
                      <form action="additem.php" method="POST" class="form-container">
                          <h1>Add Food</h1>
                          <label for="foodname"><b>Food</b></label>
-                         <input type="text" name="foodname">
+                         <input type="text" name="foodname"><br>
                          <label for="expires"><b>Expiration Date</b></label>
-                         <input type="text" name="foodname">
+                         <input type="text" name="expires">
                          <button type="submit" class="submit-button">Add</button>
 </form>
 </div>
