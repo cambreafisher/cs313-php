@@ -16,7 +16,7 @@ $db = get_db();
     <li>
 </ul>
 <script>
-const shoplist = []
+const shoplist = [
     <?php
     foreach ($db->query('SELECT item_id, food_name FROM SHOPPING') as $row) {
         echo '{foodid:"' . $row['item_id'] .'", name:"'. $row['food_name'] . '"},';
