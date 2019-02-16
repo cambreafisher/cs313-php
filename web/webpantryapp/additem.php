@@ -14,7 +14,7 @@ try {
     $statement->bindValue('food_name', $foodname, PDO::PARAM_STR);
     $statement->bindValue(':expiration_date', $expires, PDO::PARAM_STR);
     $result = $statement->execute();
-    
+    echo $result;
 }
 
 /*
