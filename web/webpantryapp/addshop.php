@@ -8,7 +8,8 @@ echo $foodname;
 try {
     $stmt = $db->prepare('INSERT INTO SHOPPING (food_name) 
                             VALUES (:foodname');
-    $stmt->execute(array(':foodname' => $foodname));
+    $stmt->bindValue(':foodname', $foodname, PDO::PARAM_STR);
+    $stmt->execute();
 }
 
 catch (exception $e) {

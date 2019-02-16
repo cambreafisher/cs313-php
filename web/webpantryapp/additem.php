@@ -11,7 +11,6 @@ try {
                             VALUES (:foodname, :expires)');
     $stmt->execute(array(':foodname' => $foodname, ':expires' => $expires));
 }
-
 catch (exception $e) {
     echo "Fail";
 }
