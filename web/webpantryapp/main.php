@@ -26,10 +26,10 @@ $db = get_db();
                          <button type="submit" class="submit-button">Add</button>
 </form>
 </div>
-                 <form action="shopping.php" method="GET"><button type="submit">Shopping List</button></form> 
+                 <form action="shopping.php" method="GET"><button class="open-button" type="submit">Shopping List</button></form> 
         </div>
         <div id="bottom">
-            <form action="pantry.php" method="GET"><button type="submit">View Pantry</button></form>
+            <form action="pantry.php" method="GET"><button class="open-button" type="submit">View Pantry</button></form>
         </div>
     </div>
     
