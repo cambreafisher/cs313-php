@@ -24,12 +24,10 @@ $db = get_db();
                          <label for="expires"><b>Expiration Date</b></label>
                          <input type="text" name="expires">
                          <button type="submit" class="submit-button">Add</button>
-</form>
-</div>
+                    </form>
+                </div>
                  <form action="shopping.php" method="GET"><button class="open-button" type="submit">Shopping List</button></form> 
-        </div>
-        <div id="bottom">
-            <form action="pantry.php" method="GET"><button class="open-button" type="submit">View Pantry</button></form>
+                <form action="pantry.php" method="GET"><button class="open-button" type="submit">View Pantry</button></form>
         </div>
     </div>
     
