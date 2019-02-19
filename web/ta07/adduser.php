@@ -17,6 +17,6 @@ catch (exception $e) {
     echo "Fail";
 }
 
-echo "successfully inserted user into database";
+header('Location: signin.php');
 
 ?>
