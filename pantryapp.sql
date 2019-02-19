@@ -85,3 +85,11 @@ VALUES ((SELECT food_id FROM FOOD WHERE food_name = 'Oil'), 1);
 
 
 DELETE FROM FOOD WHERE expiration_date IS NULL;
+
+
+
+CREATE TABLE TAUSR(
+  usr_id SERIAL PRIMARY KEY
+  ,username VARCHAR(30) NOT NULL
+  ,password VARCHAR(255) NOT NULL
+);
