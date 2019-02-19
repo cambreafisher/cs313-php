@@ -13,8 +13,8 @@ try {
     $passwordHash = $row['password'];
 
     if (password_verify($password, $passwordHash)) {
-        $_SESSION
-        header('Locations: welcome.php');
+        $_SESSION['user'] = $username;
+        header('Location: welcome.php');
     } else {
         header('Locations: signin.php');
     }
