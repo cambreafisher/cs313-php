@@ -18,6 +18,8 @@ try {
     } else {
         header('Locations: signin.php');
     }
+} catch (exception $e) {
+    echo "Fail";
 }
 
 
