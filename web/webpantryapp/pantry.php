@@ -13,7 +13,7 @@ $db = get_db();
 </head>
 <body>
 <h1>Your Pantry:</h1>
-<ul id="pantryitems" class="pantryitems">
+<ul id="pantryitems" class="list">
     <li>
 </ul>
 <script>
@@ -37,7 +37,7 @@ foodlist.sort(function(a, b){
 })
 
    const listElement = document.getElementById('pantryitems');
-   listElement.innerHTML = document.getElementById('pantryitems');
+   //listElement.innerHTML = document.getElementById('pantryitems');
 
    foodlist.forEach(food => {
        listElement.appendChild(renderfood(food));
