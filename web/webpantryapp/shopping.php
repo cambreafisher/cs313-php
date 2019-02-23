@@ -12,12 +12,12 @@ $db = get_db();
     <title>Let's Go Shopping</title>
 </head>
 <body>
-<h1>Your Shopping List:</h1>
+<h1>Shopping List:</h1>
 
 <form action="addshop.php" method="POST" class="form-container" id="myForm">
                     <h1>Add Food</h1>
                     <label for="foodname"><b>Food</b></label>
-                    <input type="text" name="foodname">
+                    <input type="text" name="foodname"><br>
                     <button type="submit" class="submit-button">Add</button>
             </form>
 
