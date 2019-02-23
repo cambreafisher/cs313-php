@@ -13,12 +13,14 @@ $db = get_db();
 </head>
 <body>
 <h1>Your Shopping List:</h1>
+
 <form action="addshop.php" method="POST" class="form-container" id="myForm">
                     <h1>Add Food</h1>
                     <label for="foodname"><b>Food</b></label>
                     <input type="text" name="foodname">
                     <button type="submit" class="submit-button">Add</button>
             </form>
+            
 <ul id="shopitems" class="list">
     <li>
 </ul>
