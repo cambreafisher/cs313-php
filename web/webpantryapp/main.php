@@ -14,7 +14,7 @@ $db = get_db();
 </head>
 <body>
 <div id="buttons">
-        <div id="top">
+        
                  <button class="open-button" onclick="openForm()">Add Food</button>
                  <div class="form-popup" id="myForm">
                      <form action="additem.php" method="POST" class="form-container">
@@ -25,10 +25,10 @@ $db = get_db();
                          <input type="text" name="expires">
                          <button type="submit" class="submit-button">Add</button>
                     </form>
-                </div>
+</div>
                  <form action="shopping.php" method="GET"><button class="open-button" type="submit">Shopping List</button></form> 
                 <form action="pantry.php" method="GET"><button class="open-button" type="submit">View Pantry</button></form>
-        </div>
+        
     </div>
     
     <script>
