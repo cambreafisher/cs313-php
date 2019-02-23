@@ -20,7 +20,7 @@ $db = get_db();
                     <input type="text" name="foodname">
                     <button type="submit" class="submit-button">Add</button>
             </form>
-            
+
 <ul id="shopitems" class="list">
     <li>
 </ul>
@@ -44,7 +44,7 @@ shoplist.sort(function(a, b){
 })
 
    const listElement = document.getElementById('shopitems');
-   listElement.innerHTML = document.getElementById('shopitems');
+   //listElement.innerHTML = document.getElementById('shopitems');
 
    shoplist.forEach(food => {
        listElement.appendChild(renderfood(food));
