@@ -17,20 +17,6 @@ body {
     background-color: #ef413b;
 }
 
-.other-button {
-    background-color: #499ff4;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    position: static;
-    opacity: 0.8;
-    bottom: 23px;
-    right: 28px;
-    width: 280px;
-    margin-bottom: 10%;
-}
-
 .form-popup {
     display: none;
     bottom: 0;

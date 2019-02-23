@@ -26,8 +26,8 @@ $db = get_db();
                          <button type="submit" class="submit-button">Add</button>
                     </form>
 </div>
-                 <form action="shopping.php" method="GET"><button class="other-button" type="submit">Shopping List</button></form> 
-                <form action="pantry.php" method="GET"><button class="other-button" type="submit">View Pantry</button></form>
+                 <form action="shopping.php" method="GET"><button class="open-button" type="submit">Shopping List</button></form> 
+                <form action="pantry.php" method="GET"><button class="open-button" type="submit">View Pantry</button></form>
         
     </div>
     
