@@ -14,7 +14,7 @@ body {
     right: 28px;
     width: 280px;
     margin-bottom: 10%;
-    background-image: url("rawfood2.jpg");
+    background-image: "rawfood2.jpg";
 }
 
 .form-popup {
