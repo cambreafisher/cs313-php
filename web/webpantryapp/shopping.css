@@ -7,6 +7,9 @@ body {
     font-family: century gothic;
 }
 
-.form-container submit-button{
+.submit-button{
     font-size: 2em;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
 }
