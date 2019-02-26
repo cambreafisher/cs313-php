@@ -18,11 +18,10 @@ $db = get_db();
                  <button class="open-button" onclick="openForm()">Add Food</button>
                  <div class="form-popup" id="myForm">
                      <form action="additem.php" method="POST" class="form-container">
-                         <h1>Add Food</h1>
-                         <label for="foodname"><b>Food</b></label>
+                         <label for="foodname"><b>Food</b></label><br>
                          <input type="text" name="foodname"><br>
                          <label for="expires"><b>Expiration Date</b></label>
-                         <input type="text" name="expires">
+                         <input type="text" name="expires"><br>
                          <button type="submit" class="submit-button">Add</button>
                     </form>
 </div>

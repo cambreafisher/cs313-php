@@ -2,6 +2,11 @@ body {
     font-family: century gothic;
     font-size: 25px;
 }
+
+input {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
 .open-button {
     
     color: white;
