@@ -28,3 +28,25 @@ body {
     padding: 10px;
     background-color: white;
 }
+
+input {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.open-button {
+    
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: static;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    margin-bottom: 10%;
+    background-color: #ef413b;
+}
+
+
+

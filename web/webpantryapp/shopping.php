@@ -14,20 +14,25 @@ $db = get_db();
 <body>
 <h1>Shopping List:</h1>
 
-<form action="addshop.php" method="POST" class="form-container" id="myForm">
+<button class="open-button" onclick="openForm()">Add Food</button>
+                 <div class="form-popup" id="myForm">
+                    <form action="addshop.php" method="POST" class="form-container" id="myForm">
                     <h1>Add Food</h1>
                     <label for="foodname"><b>Food</b></label>
                     <input type="text" name="foodname"><br>
                     <button type="submit" class="submit-button">Add</button>
             </form>
+</div>
 
 <ul id="shopitems" class="list">
     <li>
 </ul>
 <script>
+
 function openForm() {
         document.getElementById("myForm").style.display = "block";
     }
+
 const shoplist = [
     <?php
     foreach ($db->query('SELECT item_id, food_name FROM SHOPPING') as $row) {
