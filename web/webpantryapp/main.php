@@ -13,6 +13,9 @@ $db = get_db();
 
 </head>
 <body>
+<h1>Organize</h1>
+<h1>Your</h1>
+<h1>Stomach</h1>
 <div id="buttons">
         
                  <button class="open-button" onclick="openForm()">Add Food</button>
