@@ -18,7 +18,7 @@ $db = get_db();
                  <div class="form-popup" id="myForm">
                     <form action="addshop.php" method="POST" class="form-container" id="myForm">
                     <label for="foodname"><b>Food</b></label>
-                    <input type="text" name="foodname"><br>
+                    <input type="text" name="foodname"><br><br>
                     <button type="submit" class="submit-button">Add</button>
             </form>
 </div>
