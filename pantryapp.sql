@@ -1,46 +1,53 @@
-DROP TABLE FOOD;
+DROP TABLE FOOD_LIST;
+DROP TABLE USR_LIST;
 DROP TABLE LIST;
-DROP TABLE PANTRY;
 DROP TABLE SHOPPING;
+DROP TABLE FOOD;
 DROP TABLE USR;
+
+CREATE TABLE USR(
+  user_id SERIAL PRIMARY KEY
+  ,f_name VARCHAR(30) NOT NULL
+  ,l_name VARCHAR(30) NOT NULL
+  ,username VARCHAR(50) NOT NULL
+  ,password VARCHAR(250) NOT NULL
+);
 
 CREATE TABLE FOOD(
     food_id SERIAL PRIMARY KEY
-    ,food_name varchar(50)
-    ,expiration_date DATE 
+    ,food_name varchar(50) NOT NULL
+    ,expiration_date DATE NOT NULL
+    ,user_id INTEGER NOT NULL
+    ,FOREIGN KEY (user_id) REFERENCES USR(user_id)
 );
 
 CREATE TABLE SHOPPING(
     item_id serial PRIMARY KEY
-    ,food_name varchar(50)
-    ,quantity INTEGER
-);
-
-CREATE TABLE PANTRY(
-    pantry_id SERIAL PRIMARY KEY
-    ,pantry_food_id integer
-    ,quantity INTEGER 
-    ,FOREIGN KEY (pantry_food_id) REFERENCES FOOD(food_id)
+    ,food_name varchar(50) NOT NULL
+    ,quantity INTEGER NOT NULL
+    ,user_id INTEGER NOT NULL
+    ,FOREIGN KEY (user_id) REFERENCES USR(user_id)
 );
 
 CREATE TABLE LIST(
     list_id SERIAL PRIMARY KEY
-    ,list_name VARCHAR(50)
-    ,list_food_id INTEGER
-    ,quantity INTEGER
-    ,FOREIGN KEY (list_food_id) REFERENCES PANTRY(pantry_id)
+    ,list_name VARCHAR(50) NOT NULL
 );
 
-CREATE TABLE USR(
-  usr_id SERIAL PRIMARY KEY
-  ,f_name VARCHAR(30) NOT NULL
-  ,l_name VARCHAR(30) NOT NULL
-  ,pantry_list INTEGER 
-  ,shop_list INTEGER
-  ,usr_list INTEGER 
-  ,FOREIGN KEY (pantry_list) REFERENCES PANTRY(pantry_id)
-  ,FOREIGN KEY (shop_list) REFERENCES SHOPPING(item_id)
-  ,FOREIGN KEY (usr_list) REFERENCES LIST(list_id)
+CREATE TABLE USER_LIST(
+  ul_id SERIAL PRIMARY KEY
+  ,user_id INTEGER NOT NULL
+  ,list_id INTEGER NOT NULL
+  ,FOREIGN KEY (user_id) REFERENCES USR(user_id)
+  ,FOREIGN KEY (list_id) REFERENCES LIST(list_id)
+);
+
+CREATE TABLE FOOD_LIST(
+  fl_id SERIAL PRIMARY KEY
+  ,list_id INTEGER NOT NULL
+  ,food_id INTEGER NOT NULL
+  ,FOREIGN KEY (food_id) REFERENCES FOOD(food_id)
+  ,FOREIGN KEY (list_id) REFERENCES LIST(list_id)
 );
 
 INSERT INTO FOOD (food_name, expiration_date)
